@@ -12,9 +12,9 @@ export const services: Record<
   },
   retirement: {
     name: "Retirement Application Help",
-    meta: "90-min Zoom · Walk through your mySSA.gov retirement application",
+    meta: "60-min Zoom · Walk through your mySSA.gov retirement application",
     price: "$299",
-    duration: "90 min",
+    duration: "60 min",
   },
   disability: {
     name: "Disability Application Help",
@@ -106,7 +106,7 @@ export const faqs = [
   },
   {
     q: "What's included in the Retirement Application Help session?",
-    a: "Retirement App Help sessions are conducted via Zoom with screen sharing. Your consultant will walk you through the actual retirement application on the mySSA.gov portal, step by step. They'll help you avoid common mistakes, ensure you're providing the right information, and maximize your benefit amount. Each session is 90 minutes to allow for the full filing process.",
+    a: "Retirement App Help sessions are conducted via Zoom with screen sharing. Your consultant will walk you through the actual retirement application on the mySSA.gov portal, step by step. They'll help you avoid common mistakes, ensure you're providing the right information, and maximize your benefit amount. Each session is 60 minutes to allow for the full filing process.",
   },
   {
     q: "What's included in the Disability Application Help session?",
