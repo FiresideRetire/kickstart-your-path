@@ -47,10 +47,10 @@ export const experts: Expert[] = [
     initials: "EE",
     name: "Dr. Ed",
     title: "Senior Social Security Consultant",
-    bio: "Dr. Ed brings decades of Social Security expertise to private, in-depth consultations. Ideal for complex cases, high-net-worth planning, or when you want dedicated one-on-one guidance from a recognized authority.",
+    bio: "Dr. Ed brings decades of Social Security expertise to private, in-depth consultations. Ideal for complex cases, Medicare planning, or when you want dedicated one-on-one guidance from a recognized authority.",
     specialties: [
-      "Complex Retirement Planning",
-      "High-Net-Worth Strategies",
+      "Complex Social Security Cases",
+      "Medicare Strategies",
       "Disability Appeals",
       "One-on-One Private Guidance",
     ],
