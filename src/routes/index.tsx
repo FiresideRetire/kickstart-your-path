@@ -189,14 +189,18 @@ function Experts() {
                 <div className="space-y-3">
                   {(expert.booking.drEd
                     ? (["drEd"] as ServiceKey[])
-                    : serviceOrder.filter((k) => k !== "drEd" && expert.booking[k])
+                    : serviceOrder.filter((k) => k !== "drEd" && (expert.initials !== "MJ" || expert.booking[k]))
                   ).map((key) => {
                     const service = services[key];
-                    const url = expert.booking[key]!;
+                    const url = expert.booking[key];
                     return (
                       <div
                         key={key}
-                        className="flex flex-wrap items-center gap-4 rounded-xl border border-border bg-card p-4"
+                        className={`flex flex-wrap items-center gap-4 rounded-xl border p-4 ${
+                          url
+                            ? "border-border bg-card"
+                            : "border-border-subtle bg-card/50 opacity-60"
+                        }`}
                       >
                         <div className="min-w-[180px] flex-1">
                           <p className="font-bold text-primary">{service.name}</p>
@@ -209,14 +213,20 @@ function Experts() {
                           <p className="text-xs text-muted-foreground">{service.duration}</p>
                         </div>
                         <div className="w-full sm:w-auto">
-                          <a
-                            href={url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="block rounded-pill bg-accent px-5 py-2.5 text-center text-[15px] font-bold text-accent-foreground transition-colors hover:bg-accent-hover"
-                          >
-                            Book Now →
-                          </a>
+                          {url ? (
+                            <a
+                              href={url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="block rounded-pill bg-accent px-5 py-2.5 text-center text-[15px] font-bold text-accent-foreground transition-colors hover:bg-accent-hover"
+                            >
+                              Book Now →
+                            </a>
+                          ) : (
+                            <span className="block text-center text-[13px] text-muted-foreground italic">
+                              Not offered by this consultant
+                            </span>
+                          )}
                         </div>
                       </div>
                     );
