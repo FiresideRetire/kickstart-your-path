@@ -152,7 +152,7 @@ function Experts() {
       <div className="mx-auto max-w-6xl">
         <p className="section-label mb-2">Our Team</p>
         <h2 className="section-title mb-10">Meet Your Experts</h2>
-        <div className="grid gap-7 lg:grid-cols-2">
+        <div className="grid gap-7">
           {experts.map((expert) => (
             <article
               key={expert.name}
