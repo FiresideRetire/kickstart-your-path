@@ -23,6 +23,12 @@ export const Route = createFileRoute("/")({
 
 const serviceOrder: ServiceKey[] = ["general", "retirement", "disability", "drEd"];
 
+const heroPills: { price: string; label: string }[] = [
+  { price: "$199", label: "General Consultation" },
+  { price: "$299", label: "Retirement & Disability App Help" },
+  { price: "$499", label: "Private Consultation with Dr. Ed" },
+];
+
 function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border-subtle bg-background/90 backdrop-blur-md">
@@ -84,15 +90,13 @@ function Hero() {
           Administration. Flat-rate pricing. No surprises. No upsells.
         </p>
         <div className="mb-8 flex flex-wrap justify-center gap-4">
-          {serviceOrder.map((key) => (
+          {heroPills.map((pill) => (
             <div
-              key={key}
+              key={pill.label}
               className="flex items-center gap-2 rounded-pill border border-primary-foreground/15 bg-primary-foreground/10 px-5 py-2.5 text-[15px]"
             >
-              <span className="text-lg font-bold text-accent">{services[key].price}</span>
-              <span className="text-primary-foreground/70">
-                {services[key].name.replace(" Application Help", " App Help")}
-              </span>
+              <span className="text-lg font-bold text-accent">{pill.price}</span>
+              <span className="text-primary-foreground/70">{pill.label}</span>
             </div>
           ))}
         </div>
