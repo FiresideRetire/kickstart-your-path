@@ -1,4 +1,4 @@
-export type ServiceKey = "general" | "retirement" | "disability";
+export type ServiceKey = "general" | "appHelp";
 
 export const services: Record<
   ServiceKey,
@@ -7,19 +7,13 @@ export const services: Record<
   general: {
     name: "General Consultation",
     meta: "30-min private call · Expert guidance on your situation",
-    price: "$149",
+    price: "$199",
     duration: "30 min",
   },
-  retirement: {
-    name: "Retirement Application Help",
-    meta: "60-min Zoom · Walk through your mySSA.gov application",
-    price: "$199",
-    duration: "60 min",
-  },
-  disability: {
-    name: "Disability Application Help",
-    meta: "90-min Zoom · Comprehensive disability filing support",
-    price: "$249",
+  appHelp: {
+    name: "Disability & Retirement App Help",
+    meta: "90-min Zoom · Walk through your mySSA.gov application",
+    price: "$299",
     duration: "90 min",
   },
 };
@@ -61,7 +55,7 @@ export const experts: Expert[] = [
       "Survivors Benefits",
       "Medicare",
     ],
-    booking: { general: booking("13214371"), retirement: booking("13056001") },
+    booking: { general: booking("13214371"), appHelp: booking("13056001") },
   },
   {
     initials: "JB",
@@ -69,7 +63,7 @@ export const experts: Expert[] = [
     title: "Retirement Specialist & Application Expert",
     bio: "Recently retired from the Social Security Administration with extensive experience in claims processing and retirement benefits. Specializes in helping people navigate the application process with confidence.",
     specialties: ["Retirement Benefits", "Application Filing", "Claims Processing"],
-    booking: { general: booking("13214404"), retirement: booking("13059970") },
+    booking: { general: booking("13214404"), appHelp: booking("13059970") },
   },
   {
     initials: "TS",
@@ -82,7 +76,7 @@ export const experts: Expert[] = [
       "Medical Documentation",
       "Appeals",
     ],
-    booking: { general: booking("13214414"), disability: booking("13069238") },
+    booking: { general: booking("13214414"), appHelp: booking("13069238") },
   },
   {
     initials: "BB",
@@ -95,7 +89,7 @@ export const experts: Expert[] = [
       "CDR Process",
       "Reinstatement",
     ],
-    booking: { general: booking("13214410"), disability: booking("13069199") },
+    booking: { general: booking("13214410"), appHelp: booking("13069199") },
   },
 ];
 
@@ -105,12 +99,12 @@ export const faqs = [
     a: "You'll have a private 30-minute phone or video call with a former SSA insider. You can ask any questions about your Social Security, retirement, disability, or Medicare situation. Your consultant will provide personalized guidance, explain your options in plain English, and give you clear next steps you can act on.",
   },
   {
-    q: "What's included in the Application Help sessions?",
-    a: "Application Help sessions are conducted via Zoom with screen sharing. Your consultant will walk you through the actual application on the mySSA.gov portal, step by step. They'll help you avoid common mistakes, ensure you're providing the right information, and maximize your benefit amount. The Retirement session is 60 minutes; the Disability session is 90 minutes to allow for the more complex filing process.",
+    q: "What's included in the Disability & Retirement App Help session?",
+    a: "App Help sessions are conducted via Zoom with screen sharing. Your consultant will walk you through the actual application on the mySSA.gov portal, step by step. They'll help you avoid common mistakes, ensure you're providing the right information, and maximize your benefit amount. Each session is 90 minutes to allow for the full filing process.",
   },
   {
     q: "How do I choose the right consultant?",
-    a: 'Each consultant has different specialties listed on their profile. For retirement questions or application help, look for consultants with "Retirement Specialist" in their title. For disability questions or application help, look for "Disability Specialist." For general questions about any topic, any of our consultants can help. If you\'re still unsure, the $149 General Consultation is a great place to start.',
+    a: 'Each consultant has different specialties listed on their profile. For retirement questions or application help, look for consultants with "Retirement Specialist" in their title. For disability questions or application help, look for "Disability Specialist." For general questions about any topic, any of our consultants can help. If you\'re still unsure, the $199 General Consultation is a great place to start.',
   },
   {
     q: "Are there any hidden fees or upsells?",
