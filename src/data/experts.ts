@@ -12,9 +12,9 @@ export const services: Record<
   },
   retirement: {
     name: "Retirement Application Help",
-    meta: "90-min Zoom · Walk through your mySSA.gov retirement application",
+    meta: "60-min Zoom · Walk through your mySSA.gov retirement application",
     price: "$299",
-    duration: "90 min",
+    duration: "60 min",
   },
   disability: {
     name: "Disability Application Help",
