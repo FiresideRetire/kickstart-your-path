@@ -187,7 +187,10 @@ function Experts() {
                   Available Services
                 </p>
                 <div className="space-y-3">
-                  {serviceOrder.map((key) => {
+                  {(expert.booking.drEd
+                    ? (["drEd"] as ServiceKey[])
+                    : serviceOrder.filter((k) => k !== "drEd")
+                  ).map((key) => {
                     const service = services[key];
                     const url = expert.booking[key];
                     return (
