@@ -4,7 +4,7 @@ import { experts, faqs, services, type ServiceKey } from "@/data/experts";
 
 const title = "Talk to a Former Social Security Insider | 24Help.org";
 const description =
-  "Book a private consultation with a former Social Security insider. Personalized guidance on retirement, disability, Medicare, and benefits. Flat rates from $149.";
+  "Book a private consultation with a former Social Security insider. Personalized guidance on retirement, disability, Medicare, and benefits. Flat rates from $199.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
