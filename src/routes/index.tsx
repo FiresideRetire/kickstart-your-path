@@ -21,7 +21,7 @@ export const Route = createFileRoute("/")({
   component: ExpertsPage,
 });
 
-const serviceOrder: ServiceKey[] = ["general", "appHelp"];
+const serviceOrder: ServiceKey[] = ["general", "retirement", "disability"];
 
 function Header() {
   return (
