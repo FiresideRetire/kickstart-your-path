@@ -105,8 +105,12 @@ export const faqs = [
     a: "You'll have a private 30-minute phone or video call with a former SSA insider. You can ask any questions about your Social Security, retirement, disability, or Medicare situation. Your consultant will provide personalized guidance, explain your options in plain English, and give you clear next steps you can act on.",
   },
   {
-    q: "What's included in the Disability & Retirement App Help session?",
-    a: "App Help sessions are conducted via Zoom with screen sharing. Your consultant will walk you through the actual application on the mySSA.gov portal, step by step. They'll help you avoid common mistakes, ensure you're providing the right information, and maximize your benefit amount. Each session is 90 minutes to allow for the full filing process.",
+    q: "What's included in the Retirement Application Help session?",
+    a: "Retirement App Help sessions are conducted via Zoom with screen sharing. Your consultant will walk you through the actual retirement application on the mySSA.gov portal, step by step. They'll help you avoid common mistakes, ensure you're providing the right information, and maximize your benefit amount. Each session is 90 minutes to allow for the full filing process.",
+  },
+  {
+    q: "What's included in the Disability Application Help session?",
+    a: "Disability App Help sessions are conducted via Zoom with screen sharing. Your consultant will walk you through the actual disability application on the mySSA.gov portal, step by step. They'll help you avoid common mistakes, ensure you're providing the right information, and maximize your benefit amount. Each session is 90 minutes to allow for the full filing process.",
   },
   {
     q: "How do I choose the right consultant?",
