@@ -242,7 +242,7 @@ function TrustBanner() {
   const stats = [
     ["100+", "Years Combined SSA Experience"],
     ["5", "Former SSA Insiders"],
-    ["$149", "Starting Price · Flat Rate"],
+    ["$199", "Starting Price · Flat Rate"],
   ];
   return (
     <section className="hero-surface px-6 py-14">
