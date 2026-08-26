@@ -1,4 +1,4 @@
-export type ServiceKey = "general" | "appHelp";
+export type ServiceKey = "general" | "retirement" | "disability";
 
 export const services: Record<
   ServiceKey,
@@ -10,9 +10,15 @@ export const services: Record<
     price: "$199",
     duration: "30 min",
   },
-  appHelp: {
-    name: "Disability & Retirement App Help",
-    meta: "90-min Zoom · Walk through your mySSA.gov application",
+  retirement: {
+    name: "Retirement Application Help",
+    meta: "90-min Zoom · Walk through your mySSA.gov retirement application",
+    price: "$299",
+    duration: "90 min",
+  },
+  disability: {
+    name: "Disability Application Help",
+    meta: "90-min Zoom · Walk through your mySSA.gov disability application",
     price: "$299",
     duration: "90 min",
   },
@@ -55,7 +61,7 @@ export const experts: Expert[] = [
       "Survivors Benefits",
       "Medicare",
     ],
-    booking: { general: booking("13214371"), appHelp: booking("13056001") },
+    booking: { general: booking("13214371"), retirement: booking("13056001") },
   },
   {
     initials: "JB",
@@ -63,7 +69,7 @@ export const experts: Expert[] = [
     title: "Retirement Specialist & Application Expert",
     bio: "Recently retired from the Social Security Administration with extensive experience in claims processing and retirement benefits. Specializes in helping people navigate the application process with confidence.",
     specialties: ["Retirement Benefits", "Application Filing", "Claims Processing"],
-    booking: { general: booking("13214404"), appHelp: booking("13059970") },
+    booking: { general: booking("13214404"), retirement: booking("13059970") },
   },
   {
     initials: "TS",
@@ -76,7 +82,7 @@ export const experts: Expert[] = [
       "Medical Documentation",
       "Appeals",
     ],
-    booking: { general: booking("13214414"), appHelp: booking("13069238") },
+    booking: { general: booking("13214414"), disability: booking("13069238") },
   },
   {
     initials: "BB",
@@ -89,7 +95,7 @@ export const experts: Expert[] = [
       "CDR Process",
       "Reinstatement",
     ],
-    booking: { general: booking("13214410"), appHelp: booking("13069199") },
+    booking: { general: booking("13214410"), disability: booking("13069199") },
   },
 ];
 
@@ -99,8 +105,12 @@ export const faqs = [
     a: "You'll have a private 30-minute phone or video call with a former SSA insider. You can ask any questions about your Social Security, retirement, disability, or Medicare situation. Your consultant will provide personalized guidance, explain your options in plain English, and give you clear next steps you can act on.",
   },
   {
-    q: "What's included in the Disability & Retirement App Help session?",
-    a: "App Help sessions are conducted via Zoom with screen sharing. Your consultant will walk you through the actual application on the mySSA.gov portal, step by step. They'll help you avoid common mistakes, ensure you're providing the right information, and maximize your benefit amount. Each session is 90 minutes to allow for the full filing process.",
+    q: "What's included in the Retirement Application Help session?",
+    a: "Retirement App Help sessions are conducted via Zoom with screen sharing. Your consultant will walk you through the actual retirement application on the mySSA.gov portal, step by step. They'll help you avoid common mistakes, ensure you're providing the right information, and maximize your benefit amount. Each session is 90 minutes to allow for the full filing process.",
+  },
+  {
+    q: "What's included in the Disability Application Help session?",
+    a: "Disability App Help sessions are conducted via Zoom with screen sharing. Your consultant will walk you through the actual disability application on the mySSA.gov portal, step by step. They'll help you avoid common mistakes, ensure you're providing the right information, and maximize your benefit amount. Each session is 90 minutes to allow for the full filing process.",
   },
   {
     q: "How do I choose the right consultant?",
