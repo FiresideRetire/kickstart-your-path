@@ -23,6 +23,12 @@ export const Route = createFileRoute("/")({
 
 const serviceOrder: ServiceKey[] = ["general", "retirement", "disability", "drEd"];
 
+const heroPills: { price: string; label: string }[] = [
+  { price: "$199", label: "General Consultation" },
+  { price: "$299", label: "Retirement & Disability App Help" },
+  { price: "$499", label: "Private Consultation with Dr. Ed" },
+];
+
 function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border-subtle bg-background/90 backdrop-blur-md">
