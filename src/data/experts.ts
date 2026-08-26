@@ -44,6 +44,19 @@ export type Expert = {
 
 export const experts: Expert[] = [
   {
+    initials: "EE",
+    name: "Dr. Ed",
+    title: "Senior Social Security Consultant",
+    bio: "Dr. Ed brings decades of Social Security expertise to private, in-depth consultations. Ideal for complex cases, high-net-worth planning, or when you want dedicated one-on-one guidance from a recognized authority.",
+    specialties: [
+      "Complex Retirement Planning",
+      "High-Net-Worth Strategies",
+      "Disability Appeals",
+      "One-on-One Private Guidance",
+    ],
+    booking: { drEd: "https://app.acuityscheduling.com/schedule.php?owner=34168585&calendarID=PLACEHOLDER" },
+  },
+  {
     initials: "MJ",
     name: "Mai Jackson",
     title: "Retirement & Disability Consultant",
@@ -102,19 +115,6 @@ export const experts: Expert[] = [
       "Reinstatement",
     ],
     booking: { general: booking("13214410"), disability: booking("13069199") },
-  },
-  {
-    initials: "EE",
-    name: "Dr. Ed",
-    title: "Senior Social Security Consultant",
-    bio: "Dr. Ed brings decades of Social Security expertise to private, in-depth consultations. Ideal for complex cases, high-net-worth planning, or when you want dedicated one-on-one guidance from a recognized authority.",
-    specialties: [
-      "Complex Retirement Planning",
-      "High-Net-Worth Strategies",
-      "Disability Appeals",
-      "One-on-One Private Guidance",
-    ],
-    booking: { drEd: "https://app.acuityscheduling.com/schedule.php?owner=34168585&calendarID=PLACEHOLDER" },
   },
 ];
 
