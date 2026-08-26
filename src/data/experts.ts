@@ -99,12 +99,12 @@ export const faqs = [
     a: "You'll have a private 30-minute phone or video call with a former SSA insider. You can ask any questions about your Social Security, retirement, disability, or Medicare situation. Your consultant will provide personalized guidance, explain your options in plain English, and give you clear next steps you can act on.",
   },
   {
-    q: "What's included in the Application Help sessions?",
-    a: "Application Help sessions are conducted via Zoom with screen sharing. Your consultant will walk you through the actual application on the mySSA.gov portal, step by step. They'll help you avoid common mistakes, ensure you're providing the right information, and maximize your benefit amount. The Retirement session is 60 minutes; the Disability session is 90 minutes to allow for the more complex filing process.",
+    q: "What's included in the Disability & Retirement App Help session?",
+    a: "App Help sessions are conducted via Zoom with screen sharing. Your consultant will walk you through the actual application on the mySSA.gov portal, step by step. They'll help you avoid common mistakes, ensure you're providing the right information, and maximize your benefit amount. Each session is 90 minutes to allow for the full filing process.",
   },
   {
     q: "How do I choose the right consultant?",
-    a: 'Each consultant has different specialties listed on their profile. For retirement questions or application help, look for consultants with "Retirement Specialist" in their title. For disability questions or application help, look for "Disability Specialist." For general questions about any topic, any of our consultants can help. If you\'re still unsure, the $149 General Consultation is a great place to start.',
+    a: 'Each consultant has different specialties listed on their profile. For retirement questions or application help, look for consultants with "Retirement Specialist" in their title. For disability questions or application help, look for "Disability Specialist." For general questions about any topic, any of our consultants can help. If you\'re still unsure, the $199 General Consultation is a great place to start.',
   },
   {
     q: "Are there any hidden fees or upsells?",
