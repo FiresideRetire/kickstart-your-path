@@ -1,4 +1,4 @@
-export type ServiceKey = "general" | "retirement" | "disability";
+export type ServiceKey = "general" | "retirement" | "disability" | "drEd";
 
 export const services: Record<
   ServiceKey,
@@ -21,6 +21,12 @@ export const services: Record<
     meta: "90-min Zoom · Walk through your mySSA.gov disability application",
     price: "$299",
     duration: "90 min",
+  },
+  drEd: {
+    name: "Private Consultation with Dr. Ed",
+    meta: "60-min private call · In-depth guidance with Dr. Ed",
+    price: "$499",
+    duration: "60 min",
   },
 };
 
@@ -96,6 +102,19 @@ export const experts: Expert[] = [
       "Reinstatement",
     ],
     booking: { general: booking("13214410"), disability: booking("13069199") },
+  },
+  {
+    initials: "EE",
+    name: "Dr. Ed",
+    title: "Senior Social Security Consultant",
+    bio: "Dr. Ed brings decades of Social Security expertise to private, in-depth consultations. Ideal for complex cases, high-net-worth planning, or when you want dedicated one-on-one guidance from a recognized authority.",
+    specialties: [
+      "Complex Retirement Planning",
+      "High-Net-Worth Strategies",
+      "Disability Appeals",
+      "One-on-One Private Guidance",
+    ],
+    booking: { drEd: "https://app.acuityscheduling.com/schedule.php?owner=34168585&calendarID=PLACEHOLDER" },
   },
 ];
 
