@@ -1,4 +1,4 @@
-export type ServiceKey = "general" | "retirement" | "disability";
+export type ServiceKey = "general" | "appHelp";
 
 export const services: Record<
   ServiceKey,
@@ -7,19 +7,13 @@ export const services: Record<
   general: {
     name: "General Consultation",
     meta: "30-min private call · Expert guidance on your situation",
-    price: "$149",
+    price: "$199",
     duration: "30 min",
   },
-  retirement: {
-    name: "Retirement Application Help",
-    meta: "60-min Zoom · Walk through your mySSA.gov application",
-    price: "$199",
-    duration: "60 min",
-  },
-  disability: {
-    name: "Disability Application Help",
-    meta: "90-min Zoom · Comprehensive disability filing support",
-    price: "$249",
+  appHelp: {
+    name: "Disability & Retirement App Help",
+    meta: "90-min Zoom · Walk through your mySSA.gov application",
+    price: "$299",
     duration: "90 min",
   },
 };
