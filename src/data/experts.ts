@@ -61,7 +61,7 @@ export const experts: Expert[] = [
       "Survivors Benefits",
       "Medicare",
     ],
-    booking: { general: booking("13214371"), appHelp: booking("13056001") },
+    booking: { general: booking("13214371"), retirement: booking("13056001") },
   },
   {
     initials: "JB",
@@ -69,7 +69,7 @@ export const experts: Expert[] = [
     title: "Retirement Specialist & Application Expert",
     bio: "Recently retired from the Social Security Administration with extensive experience in claims processing and retirement benefits. Specializes in helping people navigate the application process with confidence.",
     specialties: ["Retirement Benefits", "Application Filing", "Claims Processing"],
-    booking: { general: booking("13214404"), appHelp: booking("13059970") },
+    booking: { general: booking("13214404"), retirement: booking("13059970") },
   },
   {
     initials: "TS",
@@ -82,7 +82,7 @@ export const experts: Expert[] = [
       "Medical Documentation",
       "Appeals",
     ],
-    booking: { general: booking("13214414"), appHelp: booking("13069238") },
+    booking: { general: booking("13214414"), disability: booking("13069238") },
   },
   {
     initials: "BB",
@@ -95,7 +95,7 @@ export const experts: Expert[] = [
       "CDR Process",
       "Reinstatement",
     ],
-    booking: { general: booking("13214410"), appHelp: booking("13069199") },
+    booking: { general: booking("13214410"), disability: booking("13069199") },
   },
 ];
 
