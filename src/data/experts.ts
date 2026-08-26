@@ -24,9 +24,9 @@ export const services: Record<
   },
   drEd: {
     name: "Private Consultation with Dr. Ed",
-    meta: "60-min private call · In-depth guidance with Dr. Ed",
+    meta: "30-min private call · In-depth guidance with Dr. Ed",
     price: "$499",
-    duration: "60 min",
+    duration: "30 min",
   },
 };
 
