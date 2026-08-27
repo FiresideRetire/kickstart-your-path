@@ -114,7 +114,7 @@ export const experts: Expert[] = [
       "CDR Process",
       "Reinstatement",
     ],
-    booking: { general: booking("13214410"), disability: booking("13069199"), retirement: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=85512181" },
+    booking: { general: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=86644132", disability: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=85512318", retirement: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=85512181" },
   },
 ];
 
