@@ -75,7 +75,7 @@ export const experts: Expert[] = [
     title: "Retirement Consultant",
     bio: "Recently retired from the Social Security Administration with extensive experience in claims processing and retirement benefits. Specializes in helping people navigate the application process with confidence.",
     specialties: ["Retirement Benefits", "Application Filing", "Claims Processing"],
-    booking: { general: booking("13214404") },
+    booking: { general: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=86644096" },
   },
   {
     initials: "CC",
