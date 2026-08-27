@@ -54,7 +54,7 @@ export const experts: Expert[] = [
       "Disability Appeals",
       "One-on-One Private Guidance",
     ],
-    booking: { drEd: "https://app.acuityscheduling.com/schedule.php?owner=34168585&calendarID=PLACEHOLDER" },
+    booking: { drEd: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=97591047" },
   },
   {
     initials: "MJ",
