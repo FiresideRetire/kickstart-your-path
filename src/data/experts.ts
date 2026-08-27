@@ -67,7 +67,7 @@ export const experts: Expert[] = [
       "Claims Processing",
       "Regional Operations",
     ],
-    booking: { general: booking("11717596") },
+    booking: { general: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=75553173" },
   },
   {
     initials: "JB",
