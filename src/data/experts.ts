@@ -88,7 +88,7 @@ export const experts: Expert[] = [
       "Survivors Benefits",
       "Medicare",
     ],
-    booking: { general: booking("13214371"), retirement: booking("13056001"), disability: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=96571099" },
+    booking: { general: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=86643633", retirement: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=85511894", disability: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=96571099" },
   },
   {
     initials: "TS",
