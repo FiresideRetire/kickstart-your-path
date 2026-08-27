@@ -88,7 +88,7 @@ export const experts: Expert[] = [
       "Survivors Benefits",
       "Medicare",
     ],
-    booking: { general: booking("13214371"), retirement: booking("13056001") },
+    booking: { general: booking("13214371"), retirement: booking("13056001"), disability: booking("PLACEHOLDER") },
   },
   {
     initials: "TS",
@@ -101,7 +101,7 @@ export const experts: Expert[] = [
       "Medical Documentation",
       "Appeals",
     ],
-    booking: { general: booking("13214414"), disability: booking("13069238") },
+    booking: { general: booking("13214414"), disability: booking("13069238"), retirement: booking("PLACEHOLDER") },
   },
   {
     initials: "BB",
@@ -114,7 +114,7 @@ export const experts: Expert[] = [
       "CDR Process",
       "Reinstatement",
     ],
-    booking: { general: booking("13214410"), disability: booking("13069199") },
+    booking: { general: booking("13214410"), disability: booking("13069199"), retirement: booking("PLACEHOLDER") },
   },
 ];
 
