@@ -101,7 +101,7 @@ export const experts: Expert[] = [
       "Medical Documentation",
       "Appeals",
     ],
-    booking: { general: booking("13214414"), disability: booking("13069238"), retirement: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=96571561" },
+    booking: { general: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=86644107", disability: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=85512507", retirement: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=96571561" },
   },
   {
     initials: "BB",
@@ -114,7 +114,7 @@ export const experts: Expert[] = [
       "CDR Process",
       "Reinstatement",
     ],
-    booking: { general: booking("13214410"), disability: booking("13069199"), retirement: booking("PLACEHOLDER") },
+    booking: { general: booking("13214410"), disability: booking("13069199"), retirement: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=85512181" },
   },
 ];
 
