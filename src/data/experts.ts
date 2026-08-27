@@ -88,7 +88,7 @@ export const experts: Expert[] = [
       "Survivors Benefits",
       "Medicare",
     ],
-    booking: { general: booking("13214371"), retirement: booking("13056001"), disability: booking("PLACEHOLDER") },
+    booking: { general: booking("13214371"), retirement: booking("13056001"), disability: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=96571099" },
   },
   {
     initials: "TS",
@@ -101,7 +101,7 @@ export const experts: Expert[] = [
       "Medical Documentation",
       "Appeals",
     ],
-    booking: { general: booking("13214414"), disability: booking("13069238"), retirement: booking("PLACEHOLDER") },
+    booking: { general: booking("13214414"), disability: booking("13069238"), retirement: "https://MyGovExpertChandaCostephens.as.me/?appointmentType=96571561" },
   },
   {
     initials: "BB",
