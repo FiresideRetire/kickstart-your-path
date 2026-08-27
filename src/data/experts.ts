@@ -70,6 +70,14 @@ export const experts: Expert[] = [
     booking: { general: booking("11717596") },
   },
   {
+    initials: "JB",
+    name: "Jay Burgos",
+    title: "Retirement Consultant",
+    bio: "Recently retired from the Social Security Administration with extensive experience in claims processing and retirement benefits. Specializes in helping people navigate the application process with confidence.",
+    specialties: ["Retirement Benefits", "Application Filing", "Claims Processing"],
+    booking: { general: booking("13214404") },
+  },
+  {
     initials: "CC",
     name: "Chanda Costephens",
     title: "Retirement Specialist & Application Expert",
@@ -81,14 +89,6 @@ export const experts: Expert[] = [
       "Medicare",
     ],
     booking: { general: booking("13214371"), retirement: booking("13056001") },
-  },
-  {
-    initials: "JB",
-    name: "Jay Burgos",
-    title: "Retirement Specialist & Application Expert",
-    bio: "Recently retired from the Social Security Administration with extensive experience in claims processing and retirement benefits. Specializes in helping people navigate the application process with confidence.",
-    specialties: ["Retirement Benefits", "Application Filing", "Claims Processing"],
-    booking: { general: booking("13214404"), retirement: booking("13059970") },
   },
   {
     initials: "TS",
